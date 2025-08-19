@@ -23,7 +23,7 @@ function NewsCardList({ article, isBookmarked, onBookmark, onRemoveBookmark, sho
 
   const getApiSourceColor = (apiSource) => {
     switch(apiSource) {
-      case 'NewsAPI':
+      case 'World News':
         return 'bg-blue-500';
       case 'GNews':
         return 'bg-green-500';
